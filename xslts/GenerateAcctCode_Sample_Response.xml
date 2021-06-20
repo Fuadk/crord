@@ -1,0 +1,17 @@
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<bus:GenerateAcctCodeResponse
+			xmlns:bus="http://www.huawei.com/bes/business/businessservices"
+			xmlns:crm="http://www.huawei.com/bes/crminterface/crmheader">
+			<bus:responseHeader>
+				<crm:version>1.00</crm:version>
+				<crm:resultCode>0</crm:resultCode>
+				<crm:resultDesc>success</crm:resultDesc>
+			</bus:responseHeader>
+			<bus:acctCode>11000000002001</bus:acctCode>
+		</bus:GenerateAcctCodeResponse>
+	</soapenv:Body>
+</soapenv:Envelope>
+
